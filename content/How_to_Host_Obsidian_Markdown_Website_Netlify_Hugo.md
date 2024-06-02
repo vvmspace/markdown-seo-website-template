@@ -114,9 +114,10 @@ tags: ["tag1", "tag2", "tag3"]
 
 Embedding videos can enhance your content and improve user engagement. Here’s how to embed a YouTube video in your Markdown files using Hugo’s shortcode:
 ```markdown
-{{< youtube "Video-ID" >}}
+{< youtube "Video-ID" >}
 ```
-Replace `Video-ID` with the actual ID of the YouTube video you want to embed.
+
+Replace `Video-ID` with the actual ID of the YouTube video you want to embed. Use `{{` and `}}` instead of `{` and `}` in the actual shortcode.
 
 By utilizing tags, descriptions, and other Hugo markup, you can significantly enhance the SEO and user engagement of your website.
 
