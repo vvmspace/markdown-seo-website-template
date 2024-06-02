@@ -10,16 +10,29 @@ description: A concise guide on creating a website with Hugo and deploying it to
 
 Creating a website with Hugo and deploying it to Netlify involves a series of steps. Here's a concise guide on how to set this up, assuming you already have a basic understanding of how to use your terminal and Git.
 
-### Step 1: Install Hugo
+## 1: Install Hugo
 
 First, you need to install Hugo on your system. Since you're using macOS, you can install Hugo via Homebrew:
 
+### Mac: 
 ```bash
 brew install hugo
 hugo version
 ```
 
-### Step 2: Create a New Hugo Site
+### Windows: 
+```bash
+choco install hugo -confirm
+hugo version
+```
+
+### Linux: 
+```bash
+snap install hugo --channel=extended
+hugo version
+```
+
+## 2: Create a New Hugo Site
 
 Create a new site using Hugo:
 
@@ -28,7 +41,7 @@ hugo new site how2gpt.xyz
 cd how2gpt.xyz
 ```
 
-### Step 3: Add a Theme
+### 3: Add a Theme
 
 Add a theme from the Hugo themes directory. For example, to add the "Hugo SEO Theme" theme:
 ```bash
@@ -36,7 +49,7 @@ git init git submodule add https://github.com/vvmspace/hugo-seo-theme.git vvmspa
 echo 'theme = "hugo-seo-theme"' >> config.toml
 ```
 
-### Step 4: Add Some Content
+### 4: Add Some Content
 
 ```bash
 hugo new posts/my-first-post.md
@@ -44,7 +57,7 @@ hugo new posts/my-first-post.md
 
 Edit `content/posts/my-first-post.md` in your text editor and add some content.
 
-### Step 5: Run Hugo Locally
+### 5: Run Hugo Locally
 
 Start the Hugo server with:
 
@@ -54,7 +67,7 @@ hugo server
 
 Visit `http://localhost:1313` to see your new website.
 
-### Step 6: Prepare for Deployment
+### 6: Prepare for Deployment
 
 Make sure your website's content is ready for deployment. Stop the server (Ctrl + C), and run:
 
@@ -63,7 +76,7 @@ hugo
 ```
 This command builds your static site into the `public/` directory.
 
-### Step 7: Deploy to Netlify
+### 7: Deploy to Netlify
 
 1. **Push your code to GitHub:**
     
