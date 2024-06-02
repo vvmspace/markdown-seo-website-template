@@ -27,7 +27,31 @@ To use your Markdown files from Obsidian for your website, follow these simple s
 By opening your vault folder in the file explorer, you can easily manage and utilize your Markdown files for your website.
 
 ## 2: Creating a Hugo Site
-Install Hugo on your system and create a new site by running:
+
+
+### 1: Install Hugo on your system
+
+Mac:
+```bash
+brew install hugo
+```
+
+Windows:
+```bash
+choco install hugo -confirm
+```
+
+Linux:
+```bash
+snap install hugo --channel=extended
+```
+
+### 2. Check the Hugo version by running:
+```bash
+hugo version
+```
+
+### 3. Create a new site by running:
 ```bash
 hugo new site my-obsidian-website
 ```
@@ -123,7 +147,30 @@ By utilizing tags, descriptions, and other Hugo markup, you can significantly en
 
 
 ## 6: Deploying on Netlify
-Link your GitHub repository to Netlify:
+
+### 1. Hugo version:
+
+Your Hugo version can be specified in the `netlify.toml` file to ensure consistency between your local environment and the Netlify build environment. Here's how to set up your Hugo version for Netlify deployment:
+
+```toml
+[build]
+  publish = "public"
+  command = "hugo"
+
+[context.production.environment]
+  HUGO_VERSION = "0.126.1"
+```
+
+Replace `0.126.1` with your local Hugo version. This configuration ensures that Netlify uses the same Hugo version as your local environment.
+
+### 2. Push your code to GitHub:
+```bash
+git add netlify.toml
+git commit -m "Specify Hugo version for Netlify build"
+git push
+```
+
+### 3. Link your GitHub repository to Netlify:
 1. Log in to Netlify and select 'New Site from Git'.
 2. Choose GitHub as the source for your site.
 3. Select your repository and configure the build settings:
