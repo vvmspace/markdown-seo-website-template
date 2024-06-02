@@ -1,10 +1,12 @@
 ---
 title: How to Host an Obsidian Markdown Website on Netlify Using Hugo and the SEO-Optimized Hugo Theme
+description: Learn how to host a website using Obsidian, Hugo, and Netlify with the SEO-optimized Hugo theme for enhanced SEO performance.
 tags: [Obsidian, Hugo, Netlify, Markdown, SEO, Website, Hosting]
 date: 2024-06-02
 ---
 
 # How to Host an Obsidian Markdown Website on Netlify Using Hugo and the SEO-Optimized Hugo Theme
+
 
 Hosting a website using Obsidian, Hugo, and Netlify offers a streamlined, efficient way to build a web presence with excellent SEO capabilities. This guide will take you through the steps of setting up a Markdown-based website using the highly SEO-optimized Hugo theme available at [vvmspace/hugo-seo-theme](https://github.com/vvmspace/hugo-seo-theme). This theme is specifically designed to handle Markdown files seamlessly, either with or without additional Hugo markup, making it ideal for both beginners and advanced users who aim for top-notch SEO performance. Additionally, it supports tags that enhance page interlinking, crucial for building a robust semantic core.
 
