@@ -164,7 +164,7 @@ To point your domain to Netlify, you need to update your DNS settings with your 
   - Add the Netlify nameservers provided to replace the current nameservers, or update the CNAME and A records as specified by Netlify.
   - Save your changes.
 
-## 4. Verify DNS Configuration
+### 4. Verify DNS Configuration
 - Return to the Netlify dashboard and click the **Check DNS configuration** button.
 - Netlify will verify the DNS settings. This process might take a few minutes to propagate.
 
