@@ -1,4 +1,4 @@
-baseURL = 'https://how2gpt.xyz'
+baseURL = 'https://how2gpt.netlify.app/'
 languageCode = 'en-us'
 title = 'How to GPT'
 theme = "hugo-seo-theme"
