@@ -78,7 +78,13 @@ This command builds your static site into the `public/` directory.
 
 ### 7: Deploy to Netlify
 
-1. **Push your code to GitHub:**
+1. Set up `baseURL` in your `config.toml` file:
+
+```toml
+baseURL = "https://how2gpt.netlify.app/"
+```
+
+2. **Push your code to GitHub:**
     
     - Create a new repository on GitHub and name it `how2gpt.xyz`.
     - Initialize the local repository and push the code:
@@ -91,7 +97,7 @@ git remote add origin https://github.com/yourusername/how2gpt.xyz.git
 git push -u origin main
 ```
     
-2. **Set up Netlify:**
+3. **Set up Netlify:**
     
     - Go to [Netlify](https://netlify.com/) and sign in.
     - Click "New site from Git" and select GitHub.
