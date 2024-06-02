@@ -2,3 +2,4 @@ baseURL = 'https://how2gpt.xyz/'
 languageCode = 'en-us'
 title = 'How to'
 theme = "hugo-seo-theme"
+description = "GPT answers to the most common questions"
