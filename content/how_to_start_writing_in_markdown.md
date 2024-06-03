@@ -61,7 +61,7 @@ To create bulleted lists, use asterisks, pluses, or dashes.
 To create links, use the following syntax: `[link text](URL)`.
 
 ```markdown
-[How to Start Writing in Markdown](https://example.com)
+[How to Start Writing in Markdown](https://how2gpt.xyz/how_to_start_writing_in_markdown/)
 ```
 
 ### Images
