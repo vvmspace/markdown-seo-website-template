@@ -1,4 +1,3 @@
-
 ---
 title: "How to Add Netlify Deployment Status Badge to Hugo Template"
 description: "Learn how to add a Netlify deployment status badge to your Hugo website template. This guide covers how to get the picture URL, configure parameters, and add the badge to the footer."
