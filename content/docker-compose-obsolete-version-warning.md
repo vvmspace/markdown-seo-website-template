@@ -1,5 +1,5 @@
 ---
-tags: ["docker", "docker compose", "yaml", "version"]
+tags: ["docker", "docker compose", "yaml", "version", "terminal"]
 description: "WARN: docker-compose.yml: `version` is obsolete"
 title: "How to Solve WARN: docker-compose.yml: `version` is Obsolete"
 ---

@@ -1,5 +1,5 @@
 ---
-tags: ["Rust", "JSON", "Programming", "Guide"]
+tags: ["Rust", "JSON", "Programming", "API integration"]
 description: "Learn how to use JSON in Rust with this complete guide. Discover multiple examples demonstrating how to parse, serialize, and manipulate JSON data efficiently."
 title: "How to Use JSON in Rust: Complete Guide with Multiple Examples"
 ---

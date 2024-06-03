@@ -1,7 +1,7 @@
 ---
 title: "How to Pass a Node.js Interview: Tips and Strategies"
 description: "Learn how to excel in your Node.js interview with these key tips and strategies. Understand the basics, focus on core concepts, and practice effectively."
-tags: ["Node.js", "Interview Tips", "Web Development", "JavaScript"]
+tags: ["Node.js", "Interview Preparation", "Web Development", "JavaScript"]
 ---
 
 # How to Pass a Node.js Interview: Tips and Strategies

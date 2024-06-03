@@ -1,7 +1,7 @@
 ---
 title: "How to Use Command Line Arguments in Rust"
 description: "Learn how to handle command line arguments in Rust using std::env and the clap crate, with practical examples."
-tags: ["Rust", "Command Line Arguments", "Programming", "CLI", "Rust CLI"]
+tags: ["Rust", "Command Line Arguments", "Programming", "CLI", "Rust CLI", "Terminal"]
 ---
 
 # How to Use Command Line Arguments in Rust

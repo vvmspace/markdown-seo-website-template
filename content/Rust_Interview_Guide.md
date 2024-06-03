@@ -1,6 +1,6 @@
 ---
 title: "How to Pass a Rust Interview: A Comprehensive Guide"
-tags: ["Rust", "interview preparation"]
+tags: ["Rust", "interview preparation", "Fundamentals"]
 description: "Learn how to prepare for and succeed in a Rust programming interview. This guide covers essential Rust concepts, common interview questions, coding challenges, and tips for acing your Rust interview."
 ---
 
