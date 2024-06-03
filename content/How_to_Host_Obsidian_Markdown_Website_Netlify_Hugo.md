@@ -64,6 +64,7 @@ Copy the Markdown files extracted from Obsidian to the `content` directory of yo
 ```bash
 cp -r /path/to/obsidian/vault/*.md /path/to/hugo/site/content/
 ```
+[How to start writing in Markdown](/how_to_start_writing_in_markdown)
 
 ## 4: Setting Up a GitHub Repository for Your Obsidian / Hugo Website
 

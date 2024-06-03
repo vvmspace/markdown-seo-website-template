@@ -57,6 +57,8 @@ hugo new posts/my-first-post.md
 
 Edit `content/posts/my-first-post.md` in your text editor and add some content.
 
+[How to start writing in Markdown](/how_to_start_writing_in_markdown)
+
 ### 5: Run Hugo Locally
 
 Start the Hugo server with:
