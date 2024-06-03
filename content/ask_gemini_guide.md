@@ -7,7 +7,7 @@ title: "How to Integrate Google Gemini API with Rust Using the ask_gemini Librar
 
 # How to Integrate Google Gemini API with Rust Using the ask_gemini Library: A Step-by-Step Guide
 
-{{< youtube 9HHKYg_t3Y0 >}}
+{{< youtube Gs-5PHfKonE >}}
 
 ## Introduction
 As Rust continues to grow in popularity, so does the need for robust libraries that can handle external API calls efficiently. `ask_gemini` provides Rust developers with a powerful tool to connect with Google Gemini API, offering asynchronous, non-blocking API interaction.
