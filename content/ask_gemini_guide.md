@@ -1,6 +1,6 @@
 ---
 description: Learn how to integrate Google Gemini API with Rust using the ask_gemini library. This step-by-step guide will help you get started with asynchronous API calls in Rust.
-tags: [Rust, Google Gemini API, ask_gemini, API Integration, Markdown]
+tags: [Rust, Google Gemini API, ask_gemini, API, Markdown]
 title: "How to Integrate Google Gemini API with Rust Using the ask_gemini Library: A Step-by-Step Guide"
 ---
 
