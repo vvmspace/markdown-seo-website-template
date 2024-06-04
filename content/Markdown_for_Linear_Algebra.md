@@ -1,5 +1,5 @@
 ---
-tags: ["Markdown", "Linear Algebra", "Mathematical Notation", "LaTeX", "Formatting"]
+tags: ["Markdown", "Linear Algebra", "Mathematical Notation", "LaTeX", "Formatting", "MathJax"]
 description: "Discover how to use Markdown combined with LaTeX for writing mathematical notation, specifically for linear algebra, with clear examples and code."
 date: "2024-06-04"
 title: "How to Use Markdown for Linear Algebra: Mathematical Notation Examples"
@@ -10,7 +10,7 @@ math: true
 
 See also: [How to Start Writing in Markdown](/how_to_start_writing_in_markdown)
 
-Markdown is a lightweight markup language with plain text formatting syntax. It is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor. When it comes to writing mathematical notation, Markdown, in combination with LaTeX, is an excellent tool. LaTeX is a high-quality typesetting system that's widely used for technical and scientific documentation.
+Markdown is a lightweight markup language with plain text formatting syntax. It is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor. When it comes to writing mathematical notation, Markdown, in combination with LaTeX or MathJax, is an excellent tool. LaTeX is a high-quality typesetting system that's widely used for technical and scientific documentation.
 
 In this article, we'll cover how to use Markdown for linear algebra by providing examples of mathematical notation and their corresponding Markdown code.
 
@@ -19,9 +19,9 @@ In this article, we'll cover how to use Markdown for linear algebra by providing
 To include mathematical notation in Markdown, you typically use a combination of Markdown and LaTeX syntax. Inline mathematical expressions can be enclosed in single dollar signs (`$...$`), while block mathematical expressions are enclosed in double dollar signs (`$$...$$`).
 
 ### 1. Matrix Representation
+
 To represent a matrix in Markdown, you can use LaTeX within a block element.
 
-**Markdown Code:**
 ```markdown
 $$
 \mathbf{A} = \begin{bmatrix}
@@ -44,70 +44,45 @@ a_{m1} & a_{m2} & \cdots & a_{mn}
 $$
 
 ### 2. Vector Representation
-Vectors can be represented in column form using LaTeX.
+Vectors can be represented as $\mathbf{v} = \begin{bmatrix} v_{1} \ v_{2} \cdots \ v_{n} \end{bmatrix}$
 
-$$
-\mathbf{v} = \begin{bmatrix}
-v_{1} \
-v_{2} \
-\cdots \
-v_{n}
-\end{bmatrix}
-$$
-
-**Markdown Code:**
 ```markdown
-$$
-\mathbf{v} = \begin{bmatrix}
-v_{1} \
-v_{2} \
-\cdots \
-v_{n}
-\end{bmatrix}
-$$
+Vectors can be represented as $\mathbf{v} = \begin{bmatrix} v_{1} \ v_{2} \cdots \ v_{n} \end{bmatrix}$
 ```
 
-Or in component form
+Or as $\vec{v} = \begin{bmatrix} x \\ y \\ z \end{bmatrix}$
 
-**Markdown Code:**
 ```markdown
-The vector $\vec{v}$ can be represented in component form as $\vec{v} = \begin{bmatrix} x \\ y \\ z \end{bmatrix}$.
+Or as $\vec{v} = \begin{bmatrix} x \\ y \\ z \end{bmatrix}$
 ```
-
-**Rendered Output:**
-
-The vector $\vec{v}$ can be represented in component form as $\vec{v} = \begin{bmatrix} x \\ y \\ z \end{bmatrix}$.
-
-
-**Rendered Output:**
-$$
-\mathbf{v} = \begin{bmatrix}
-v_{1} \
-v_{2} \
-\cdots \
-v_{n}
-\end{bmatrix}
-$$
 
 ### 3. Dot Product
 The dot product of two vectors $\mathbf{a}$ and $\mathbf{b}$ can be represented as follows:
 
-**Markdown Code:**
+$$
+\mathbf{a} \cdot \mathbf{b} = \sum_{i=1}^{n} a_i b_i
+$$
+
 ```markdown
 $$
 \mathbf{a} \cdot \mathbf{b} = \sum_{i=1}^{n} a_i b_i
 $$
 ```
-
-**Rendered Output:**
-$$
-\mathbf{a} \cdot \mathbf{b} = \sum_{i=1}^{n} a_i b_i
-$$
 
 ### 4. Matrix Multiplication
 Matrix multiplication of $\mathbf{A}$ and $\mathbf{B}$:
 
-**Markdown Code:**
+$$
+\mathbf{C} = \mathbf{A} \mathbf{B}
+$$
+
+where
+
+$$
+\mathbf{C_ij} = \sum_{k=1}^{n} \mathbf{A_ik} \mathbf{B_kj}
+$$
+
+
 ```markdown
 $$
 \mathbf{C} = \mathbf{A} \mathbf{B}
@@ -119,22 +94,17 @@ $$
 \mathbf{C_ij} = \sum_{k=1}^{n} \mathbf{A_ik} \mathbf{B_kj}
 $$
 ```
-
-**Rendered Output:**
-$$
-\mathbf{C} = \mathbf{A} \mathbf{B}
-$$
-
-where
-
-$$
-\mathbf{C_ij} = \sum_{k=1}^{n} \mathbf{A_ik} \mathbf{B_kj}
-$$
 
 ### 5. Determinant of a Matrix
 The determinant of a 2x2 matrix $\mathbf{A}$:
 
-**Markdown Code:**
+$$
+\det(\mathbf{A}) = \begin{vmatrix}
+a & b \
+c & d
+\end{vmatrix} = ad - bc
+$$
+
 ```markdown
 $$
 \det(\mathbf{A}) = \begin{vmatrix}
@@ -143,14 +113,6 @@ c & d
 \end{vmatrix} = ad - bc
 $$
 ```
-
-**Rendered Output:**
-$$
-\det(\mathbf{A}) = \begin{vmatrix}
-a & b \
-c & d
-\end{vmatrix} = ad - bc
-$$
 
 ## Conclusion
 
