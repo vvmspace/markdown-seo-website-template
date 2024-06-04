@@ -6,6 +6,8 @@ tags: ["Markdown", "Guide", "Writing", "Formatting"]
 
 # How to Start Writing in Markdown
 
+See also: [Markdown for Linear Algebra](/Markdown_for_Linear_Algebra)
+
 Markdown is a lightweight markup language that allows you to create formatted text using plain text. It is often used for writing documentation, blogs, and notes. In this article, we will explain how to start writing in Markdown.
 
 ## What is Markdown

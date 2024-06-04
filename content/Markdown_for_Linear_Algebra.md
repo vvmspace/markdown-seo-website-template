@@ -1,11 +1,14 @@
 ---
-tags: ["Markdown", "Linear Algebra", "Mathematical Notation", "LaTeX"]
+tags: ["Markdown", "Linear Algebra", "Mathematical Notation", "LaTeX", "Formatting"]
 description: "Discover how to use Markdown combined with LaTeX for writing mathematical notation, specifically for linear algebra, with clear examples and code."
 date: "2024-06-04"
 title: "How to Use Markdown for Linear Algebra: Mathematical Notation Examples"
+math: true
 ---
 
 # How to Use Markdown for Linear Algebra: Mathematical Notation Examples
+
+See also: [How to Start Writing in Markdown](/how_to_start_writing_in_markdown)
 
 Markdown is a lightweight markup language with plain text formatting syntax. It is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor. When it comes to writing mathematical notation, Markdown, in combination with LaTeX, is an excellent tool. LaTeX is a high-quality typesetting system that's widely used for technical and scientific documentation.
 
@@ -14,43 +17,6 @@ In this article, we'll cover how to use Markdown for linear algebra by providing
 ## Basic Mathematical Notation
 
 To include mathematical notation in Markdown, you typically use a combination of Markdown and LaTeX syntax. Inline mathematical expressions can be enclosed in single dollar signs (`$...$`), while block mathematical expressions are enclosed in double dollar signs (`$$...$$`).
-
-### Inline Examples
-
-#### 1. Scalars
-Scalars are single numbers. In linear algebra, they are often denoted by lowercase letters.
-
-**Markdown Code:**
-```markdown
-A scalar is represented by $a$.
-```
-
-**Rendered Output:**
-A scalar is represented by \( a \).
-
-#### 2. Vectors
-Vectors are usually denoted by bold lowercase letters or lowercase letters with an arrow on top.
-
-**Markdown Code:**
-```markdown
-A vector can be represented by $\mathbf{v}$ or $\cec{v}$.
-```
-
-**Rendered Output:**
-A vector can be represented by \( \mathbf{v} \) or \( \cec{v} \).
-
-#### 3. Matrices
-Matrices are denoted by uppercase bold letters or uppercase letters.
-
-**Markdown Code:**
-```markdown
-A matrix is represented by $\mathbf{A}$.
-```
-
-**Rendered Output:**
-A matrix is represented by \( \mathbf{A} \).
-
-## Block Examples
 
 ### 1. Matrix Representation
 To represent a matrix in Markdown, you can use LaTeX within a block element.
@@ -100,6 +66,18 @@ v_{n}
 \end{bmatrix}
 $$
 ```
+
+Or in component form
+
+**Markdown Code:**
+```markdown
+The vector $\vec{v}$ can be represented in component form as $\vec{v} = \begin{bmatrix} x \\ y \\ z \end{bmatrix}$.
+```
+
+**Rendered Output:**
+
+The vector $\vec{v}$ can be represented in component form as $\vec{v} = \begin{bmatrix} x \\ y \\ z \end{bmatrix}$.
+
 
 **Rendered Output:**
 $$
