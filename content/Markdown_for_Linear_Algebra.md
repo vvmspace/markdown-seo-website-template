@@ -90,7 +90,7 @@ v_{n}
 $$
 
 ### 3. Dot Product
-The dot product of two vectors \( \mathbf{a} \) and \( \mathbf{b} \) can be represented as follows:
+The dot product of two vectors $\mathbf{a}$ and $\mathbf{b}$ can be represented as follows:
 
 **Markdown Code:**
 ```markdown
@@ -105,7 +105,7 @@ $$
 $$
 
 ### 4. Matrix Multiplication
-Matrix multiplication of \( \mathbf{A} \) and \( \mathbf{B} \):
+Matrix multiplication of $\mathbf{A}$ and $\mathbf{B}$:
 
 **Markdown Code:**
 ```markdown
@@ -116,7 +116,7 @@ $$
 where
 
 $$
-\mathbf{C}_{ij} = \sum_{k=1}^{n} \mathbf{A}_{ik} \mathbf{B}_{kj}
+\mathbf{C_ij} = \sum_{k=1}^{n} \mathbf{A_ik} \mathbf{B_kj}
 $$
 ```
 
@@ -128,11 +128,11 @@ $$
 where
 
 $$
-\mathbf{C}_{ij} = \sum_{k=1}^{n} \mathbf{A}_{ik} \mathbf{B}_{kj}
+\mathbf{C_ij} = \sum_{k=1}^{n} \mathbf{A_ik} \mathbf{B_kj}
 $$
 
 ### 5. Determinant of a Matrix
-The determinant of a 2x2 matrix \( \mathbf{A} \):
+The determinant of a 2x2 matrix $\mathbf{A}$:
 
 **Markdown Code:**
 ```markdown
