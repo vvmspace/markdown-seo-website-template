@@ -2,6 +2,7 @@
 title: "How to Pass GraphQL Interview Questions"
 description: "Learn how to pass GraphQL interview questions with confidence by understanding key concepts and practicing common questions."
 tags: ["GraphQL", "interview", "API", "web development"]
+date: 2024-01-06
 ---
 
 # How to Pass GraphQL Interview Questions

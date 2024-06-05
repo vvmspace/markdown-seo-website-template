@@ -1,5 +1,5 @@
 ---
-title: How to create a site with Hugo and deploy it to Netlify
+title: How to create a site with Hugo and deploy it to Netlify (First edition)
 tags: ["hugo", "netlify", "website", "deployment"]
 description: A concise guide on creating a website with Hugo and deploying it to Netlify.
 ---
@@ -7,7 +7,7 @@ description: A concise guide on creating a website with Hugo and deploying it to
 Creating a website with Hugo and deploying it to Netlify involves a series of steps. Here's a concise guide on how to set this up, assuming you already have a basic understanding of how to use your terminal and Git.
 
 Check also:
-- [How to Host Obsidian Notes on Netlify using Hugo with SEO template](/How_to_Host_Obsidian_Markdown_Website_Netlify_Hugo)
+- [How to Host Obsidian Notes on Netlify using Hugo with SEO template](/How_to_Host_Obsidian_Markdown_Website_Netlify_Hugo)  - **Second Edition**
 - [How to Specify a Hugo Version for Netlify Deployment](/Hugo_Version_Netlify_Revised)
 
 ## 1: Install Hugo
