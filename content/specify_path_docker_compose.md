@@ -1,6 +1,6 @@
 ---
 title: "How to Specify the Path to docker-compose.yml in Docker"
-date: 2024-06-06
+date: 2024-06-05
 tags: ["docker", "docker compose", "DevOps", "Containerization"]
 description: "Enhance your Docker workflow by learning how to specify the path to your docker-compose.yml file, ensuring a smooth and efficient container management process."
 ---
