@@ -2,6 +2,7 @@
 tags: ["docker", "docker compose", "yaml", "version", "terminal"]
 description: "WARN: docker-compose.yml: `version` is obsolete"
 title: "How to Solve WARN: docker-compose.yml: `version` is Obsolete"
+date: 2024-06-04
 ---
 
 # How to Solve the WARN: docker-compose.yml: `version` is Obsolete Warning
