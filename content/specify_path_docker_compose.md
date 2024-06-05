@@ -5,7 +5,7 @@ tags: ["docker", "docker compose", "DevOps", "Containerization"]
 description: "Enhance your Docker workflow by learning how to specify the path to your docker-compose.yml file, ensuring a smooth and efficient container management process."
 ---
 
-# How to Specify the Path to `docker-compose.yml` in Docker
+# How to Specify the Path to docker-compose.yml in Docker
 
 When working with Docker, managing multiple containers with `docker-compose` can streamline your development and deployment processes. However, there are times when you need to specify the path to your `docker-compose.yml` file, especially if it isn't located in the default directory. This article will guide you through the steps to specify the path to your `docker-compose.yml` file, ensuring a smooth and efficient workflow.
 
